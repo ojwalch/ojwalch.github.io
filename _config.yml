@@ -4,7 +4,7 @@
 
 
 # Adding a theme:
-theme: minima
+theme: jekyll-whiteglass
 
 # Name of your site (displayed in the header)
 name: Blog
