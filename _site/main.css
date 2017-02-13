@@ -1,0 +1,14 @@
+
+.gallery, .gallery li {
+		list-style: none;
+		padding: 0;
+}
+
+.gallery li {
+	       display: inline-block;
+	       width: 30%;
+}
+
+.gallery li img {
+	       width: 100%;
+}

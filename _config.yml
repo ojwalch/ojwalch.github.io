@@ -2,6 +2,10 @@
 # This file contains configuration flags to customize your site
 #
 
+
+# Adding a theme:
+theme: minima
+
 # Name of your site (displayed in the header)
 name: Blog
 
@@ -22,11 +26,11 @@ footer-links:
   facebook:
   flickr:
   github: ojwalch
-  instagram: imogen.quest
+  instagram: oliviawalch
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: oliviawalch
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -84,3 +88,4 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+

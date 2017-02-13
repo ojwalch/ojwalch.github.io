@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-13T11:55:02-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Picture Clouds</title><link href="http://localhost:4000/Picture-Clouds/" rel="alternate" type="text/html" title="Picture Clouds" /><published>2017-02-13T00:00:00-05:00</published><updated>2017-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Picture-Clouds</id><content type="html" xml:base="http://localhost:4000/Picture-Clouds/">&lt;p&gt;I’ve always loved how word clouds look, so I wrote up a MATLAB implementation for images. Like the Wordle algorithm &lt;a href=&quot;http://stackoverflow.com/questions/342687/algorithm-to-implement-a-word-cloud-like-wordle&quot;&gt;described here&lt;/a&gt;, the code spirals out from a point on a canvas until it finds a point to place the image where no intersection occurs. Code and a few sample images are on &lt;a href=&quot;https://github.com/ojwalch/picture-clouds&quot;&gt;my github page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A few more sample outputs are below; image themes include: Audrey Hepburn, Eartha Kitt, Agatha Christie, Virginia Woolf, The Canterbury Tales, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Ernie_Bushmiller&quot;&gt;my beloved Nancy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/agatha_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/agatha_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/audrey_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/audrey_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/canterbury_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/canterbury_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/complex_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/complex_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/complex_example_2.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/complex_example_2.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/eartha_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/eartha_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/nancy_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/nancy_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/nancy_example_2.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/nancy_example_2.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/picture-clouds/woolf_example.png&quot;&gt;
+        &lt;img src=&quot;/assets/picture-clouds/woolf_example.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+&lt;/ul&gt;</content><summary type="html">I’ve always loved how word clouds look, so I wrote up a MATLAB implementation for images. Like the Wordle algorithm described here, the code spirals out from a point on a canvas until it finds a point to place the image where no intersection occurs. Code and a few sample images are on my github page.</summary></entry></feed>
