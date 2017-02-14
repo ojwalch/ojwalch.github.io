@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-13T11:55:02-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Picture Clouds</title><link href="http://localhost:4000/Picture-Clouds/" rel="alternate" type="text/html" title="Picture Clouds" /><published>2017-02-13T00:00:00-05:00</published><updated>2017-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Picture-Clouds</id><content type="html" xml:base="http://localhost:4000/Picture-Clouds/">&lt;p&gt;I’ve always loved how word clouds look, so I wrote up a MATLAB implementation for images. Like the Wordle algorithm &lt;a href=&quot;http://stackoverflow.com/questions/342687/algorithm-to-implement-a-word-cloud-like-wordle&quot;&gt;described here&lt;/a&gt;, the code spirals out from a point on a canvas until it finds a point to place the image where no intersection occurs. Code and a few sample images are on &lt;a href=&quot;https://github.com/ojwalch/picture-clouds&quot;&gt;my github page&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-14T13:30:34-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">ActiveReader</title><link href="http://localhost:4000/ActiveReader/" rel="alternate" type="text/html" title="ActiveReader" /><published>2017-02-14T00:00:00-05:00</published><updated>2017-02-14T00:00:00-05:00</updated><id>http://localhost:4000/ActiveReader</id><content type="html" xml:base="http://localhost:4000/ActiveReader/">&lt;p&gt;I have a terrible time learning and retaining content from reading articles or textbooks, so I wrote a little bit of code to take a block of text and turn it into a multiple choice quiz by removing one word from every sentence. It’s called &lt;a href=&quot;http://www.oliviawalch.com/active-reader&quot;&gt;ActiveReader&lt;/a&gt;, and the code behind it is &lt;a href=&quot;https://github.com/ojwalch/active-reader&quot;&gt;available on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;See the screenshots below for a glimpse of it in action, or try it yourself &lt;a href=&quot;http://www.oliviawalch.com/active-reader&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/active-reader/screenshot1.png&quot; alt=&quot;Screenshot 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/active-reader/screenshot2.png&quot; alt=&quot;Screenshot 2&quot; /&gt;&lt;/p&gt;</content><summary type="html">I have a terrible time learning and retaining content from reading articles or textbooks, so I wrote a little bit of code to take a block of text and turn it into a multiple choice quiz by removing one word from every sentence. It’s called ActiveReader, and the code behind it is available on GitHub.</summary></entry><entry><title type="html">Picture Clouds</title><link href="http://localhost:4000/Picture-Clouds/" rel="alternate" type="text/html" title="Picture Clouds" /><published>2017-02-13T00:00:00-05:00</published><updated>2017-02-13T00:00:00-05:00</updated><id>http://localhost:4000/Picture-Clouds</id><content type="html" xml:base="http://localhost:4000/Picture-Clouds/">&lt;p&gt;I’ve always loved how word clouds look, so I wrote up a MATLAB implementation for images. Like the Wordle algorithm &lt;a href=&quot;http://stackoverflow.com/questions/342687/algorithm-to-implement-a-word-cloud-like-wordle&quot;&gt;described here&lt;/a&gt;, the code spirals out from a point on a canvas until it finds a point to place the image where no intersection occurs. Code and a few sample images are on &lt;a href=&quot;https://github.com/ojwalch/picture-clouds&quot;&gt;my GitHub page&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;A few more sample outputs are below; image themes include: Audrey Hepburn, Eartha Kitt, Agatha Christie, Virginia Woolf, The Canterbury Tales, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Ernie_Bushmiller&quot;&gt;my beloved Nancy&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
 
 
     
@@ -115,4 +127,67 @@
 
     
 
-&lt;/ul&gt;</content><summary type="html">I’ve always loved how word clouds look, so I wrote up a MATLAB implementation for images. Like the Wordle algorithm described here, the code spirals out from a point on a canvas until it finds a point to place the image where no intersection occurs. Code and a few sample images are on my github page.</summary></entry></feed>
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+&lt;/ul&gt;</content><summary type="html">I’ve always loved how word clouds look, so I wrote up a MATLAB implementation for images. Like the Wordle algorithm described here, the code spirals out from a point on a canvas until it finds a point to place the image where no intersection occurs. Code and a few sample images are on my GitHub page.</summary></entry></feed>
