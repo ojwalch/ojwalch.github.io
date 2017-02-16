@@ -1,9 +1,9 @@
 <ul class="gallery">
 {% for image in site.static_files %}
 
-    {% if image.path contains 'picture-clouds' %}
+    {% if image.path contains 'squigglish' %}
     <li>
-      <a href="{{ image.link }}">
+      <a href="{{ site.baseurl }}{{ image.path }}">
         <img src="{{ site.baseurl }}{{ image.path }}" />
       </a>
     </li>
