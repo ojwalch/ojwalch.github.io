@@ -1,4 +1,189 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-16T19:03:17-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Cool warps</title><link href="http://localhost:4000/Cool-Warps/" rel="alternate" type="text/html" title="Cool warps" /><published>2017-02-16T00:00:00-05:00</published><updated>2017-02-16T00:00:00-05:00</updated><id>http://localhost:4000/Cool-Warps</id><content type="html" xml:base="http://localhost:4000/Cool-Warps/">&lt;p&gt;When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on &lt;a href=&quot;https://github.com/ojwalch/cool-warps&quot;&gt;my GitHub page&lt;/a&gt;, and some sample outputs are below.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T09:30:42-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Simple Triangulation</title><link href="http://localhost:4000/Triangulate/" rel="alternate" type="text/html" title="Simple Triangulation" /><published>2017-02-17T00:00:00-05:00</published><updated>2017-02-17T00:00:00-05:00</updated><id>http://localhost:4000/Triangulate</id><content type="html" xml:base="http://localhost:4000/Triangulate/">&lt;p&gt;I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available &lt;a href=&quot;https://github.com/ojwalch/triangulate-svg&quot;&gt;here&lt;/a&gt;, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!&lt;/p&gt;
+
+&lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/triangulate/astro_output.png&quot;&gt;
+        &lt;img src=&quot;/assets/triangulate/astro_output.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/triangulate/emmy_output.png&quot;&gt;
+        &lt;img src=&quot;/assets/triangulate/emmy_output.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/triangulate/mlktri.png&quot;&gt;
+        &lt;img src=&quot;/assets/triangulate/mlktri.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/triangulate/rooster.png&quot;&gt;
+        &lt;img src=&quot;/assets/triangulate/rooster.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+&lt;/ul&gt;</content><summary type="html">I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available here, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!</summary></entry><entry><title type="html">Cool warps</title><link href="http://localhost:4000/Cool-Warps/" rel="alternate" type="text/html" title="Cool warps" /><published>2017-02-16T00:00:00-05:00</published><updated>2017-02-16T00:00:00-05:00</updated><id>http://localhost:4000/Cool-Warps</id><content type="html" xml:base="http://localhost:4000/Cool-Warps/">&lt;p&gt;When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on &lt;a href=&quot;https://github.com/ojwalch/cool-warps&quot;&gt;my GitHub page&lt;/a&gt;, and some sample outputs are below.&lt;/p&gt;
 
 &lt;p&gt;But first, a little more detail:&lt;/p&gt;
 
@@ -73,6 +258,18 @@
         &lt;img src=&quot;/assets/conformal/nancy_output.gif&quot; /&gt;
       &lt;/a&gt;
     &lt;/li&gt;
+
+    
+
+
+    
+
+
+    
+
+
+    
+
 
     
 
@@ -352,6 +549,18 @@
 
     
 
+
+    
+
+
+    
+
+
+    
+
+
+    
+
 &lt;/ul&gt;</content><summary type="html">Squigglish! is an iOS drawing app that makes the lines you draw wiggle. You can draw on a solid color canvas or on photos, and your creations can be exported to movies or GIFs. Like other projects of mine with Matt, it’s powered by the magic of Fourier series. You can download the app here, and look below for some sample outputs. I’ll be updating this gallery with some of my favorite Squigglish creations, and anyone who’s interested should feel encouraged to submit their faves!</summary></entry><entry><title type="html">ActiveReader</title><link href="http://localhost:4000/ActiveReader/" rel="alternate" type="text/html" title="ActiveReader" /><published>2017-02-14T00:00:00-05:00</published><updated>2017-02-14T00:00:00-05:00</updated><id>http://localhost:4000/ActiveReader</id><content type="html" xml:base="http://localhost:4000/ActiveReader/">&lt;p&gt;I have a terrible time learning and retaining content from reading articles or textbooks, so I wrote a little bit of code to take a block of text and turn it into a multiple choice quiz by removing one word from every sentence. It’s called &lt;a href=&quot;http://www.oliviawalch.com/active-reader&quot;&gt;ActiveReader&lt;/a&gt;, and the code behind it is &lt;a href=&quot;https://github.com/ojwalch/active-reader&quot;&gt;available on GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;See the screenshots below for a glimpse of it in action, or try it yourself &lt;a href=&quot;http://www.oliviawalch.com/active-reader&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -475,6 +684,18 @@
         &lt;img src=&quot;/assets/picture-clouds/woolf_example.png&quot; /&gt;
       &lt;/a&gt;
     &lt;/li&gt;
+
+    
+
+
+    
+
+
+    
+
+
+    
+
 
     
 
