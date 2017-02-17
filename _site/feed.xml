@@ -1,6 +1,219 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-16T11:17:32-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Squigglish!</title><link href="http://localhost:4000/Squigglish/" rel="alternate" type="text/html" title="Squigglish!" /><published>2017-02-15T00:00:00-05:00</published><updated>2017-02-15T00:00:00-05:00</updated><id>http://localhost:4000/Squigglish</id><content type="html" xml:base="http://localhost:4000/Squigglish/">&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/squigglish!/id1200924640?mt=8&quot;&gt;Squigglish!&lt;/a&gt; is an iOS drawing app that makes the lines you draw wiggle. You can draw on a solid color canvas or on photos, and your creations can be exported to movies or GIFs. Like other projects of mine with &lt;a href=&quot;http://www-personal.umich.edu/~majaco/&quot;&gt;Matt&lt;/a&gt;, it’s powered by the magic of Fourier series. You can download the app &lt;a href=&quot;https://itunes.apple.com/us/app/squigglish!/id1200924640?mt=8&quot;&gt;here&lt;/a&gt;, and look below for some sample outputs. I’ll be updating this gallery with some of my favorite Squigglish creations, and anyone who’s interested should feel encouraged to submit their faves!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-16T19:03:17-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Cool warps</title><link href="http://localhost:4000/Cool-Warps/" rel="alternate" type="text/html" title="Cool warps" /><published>2017-02-16T00:00:00-05:00</published><updated>2017-02-16T00:00:00-05:00</updated><id>http://localhost:4000/Cool-Warps</id><content type="html" xml:base="http://localhost:4000/Cool-Warps/">&lt;p&gt;When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on &lt;a href=&quot;https://github.com/ojwalch/cool-warps&quot;&gt;my GitHub page&lt;/a&gt;, and some sample outputs are below.&lt;/p&gt;
+
+&lt;p&gt;But first, a little more detail:&lt;/p&gt;
+
+&lt;p&gt;Conformal mappings are mappings that preserve angles locally. If I map an image in a conformal way, then if you zoom in enough on a spot in the output, it will eventually look like a zoomed in version of the original (albeit likely rotated). This code generates warping GIFs by interpolating between (i.e. blending) conformal mappings of the complex plane.&lt;/p&gt;
+
+&lt;p&gt;In all of the following, I assume that I tile the complex plane with the given image. Then I iterate over all the pixels in the output to assign a value to each one. The values come from mapping the pixel positions in the output by the inverse function of the conformal map we’re trying to achieve and then modding by the dimensions of the image (hence, the tiling assumption).&lt;/p&gt;
+
+&lt;p&gt;For each GIF, I randomly generate an order for my pre-coded set of mappings, which should be conformal in the first quadrant. Then I interpolate from one to the next to create the cool space zoom effects; this often, but not always, preserves the assumption that things will be conformal, so it’s fun to look out for points in the GIFs where the map’s no longer conformal and the outputs look weird.&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/conformal/broccoli_output.png&quot;&gt;
+        &lt;img src=&quot;/assets/conformal/broccoli_output.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/conformal/conformal1.png&quot;&gt;
+        &lt;img src=&quot;/assets/conformal/conformal1.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/conformal/galaxy_output.gif&quot;&gt;
+        &lt;img src=&quot;/assets/conformal/galaxy_output.gif&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/conformal/head_output.gif&quot;&gt;
+        &lt;img src=&quot;/assets/conformal/head_output.gif&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/conformal/khanformal.png&quot;&gt;
+        &lt;img src=&quot;/assets/conformal/khanformal.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/conformal/nancy_output.gif&quot;&gt;
+        &lt;img src=&quot;/assets/conformal/nancy_output.gif&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+&lt;/ul&gt;</content><summary type="html">When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on my GitHub page, and some sample outputs are below.</summary></entry><entry><title type="html">Squigglish!</title><link href="http://localhost:4000/Squigglish/" rel="alternate" type="text/html" title="Squigglish!" /><published>2017-02-15T00:00:00-05:00</published><updated>2017-02-15T00:00:00-05:00</updated><id>http://localhost:4000/Squigglish</id><content type="html" xml:base="http://localhost:4000/Squigglish/">&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/squigglish!/id1200924640?mt=8&quot;&gt;Squigglish!&lt;/a&gt; is an iOS drawing app that makes the lines you draw wiggle. You can draw on a solid color canvas or on photos, and your creations can be exported to movies or GIFs. Like other projects of mine with &lt;a href=&quot;http://www-personal.umich.edu/~majaco/&quot;&gt;Matt&lt;/a&gt;, it’s powered by the magic of Fourier series. You can download the app &lt;a href=&quot;https://itunes.apple.com/us/app/squigglish!/id1200924640?mt=8&quot;&gt;here&lt;/a&gt;, and look below for some sample outputs. I’ll be updating this gallery with some of my favorite Squigglish creations, and anyone who’s interested should feel encouraged to submit their faves!&lt;/p&gt;
+
+&lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
 
 
     
@@ -150,6 +363,24 @@
 &lt;p&gt;A few more sample outputs are below; image themes include: Audrey Hepburn, Eartha Kitt, Agatha Christie, Virginia Woolf, The Canterbury Tales, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Ernie_Bushmiller&quot;&gt;my beloved Nancy&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
 
 
     

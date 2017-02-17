@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cool warps – Blog – Projects by Olivia Walch</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on my GitHub page, and some sample outputs are below.
+
+" />
+    <meta property="og:description" content="When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on my GitHub page, and some sample outputs are below.
+
+" />
+    
+    <meta name="author" content="Blog" />
+
+    
+    <meta property="og:title" content="Cool warps" />
+    <meta property="twitter:title" content="Cool warps" />
+    
+    <link rel="stylesheet" href="../../main.css">
+
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Blog - Projects by Olivia Walch" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="http://www-personal.umich.edu/~ojwalch/images/profpic.jpg" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Blog</a></h1>
+            <p class="site-description">Projects by Olivia Walch</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <link rel="stylesheet" href="../../main.css">
+
+<article class="post">
+  <h1>Cool warps</h1>
+
+  <div class="entry">
+    <p>When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on <a href="https://github.com/ojwalch/cool-warps">my GitHub page</a>, and some sample outputs are below.</p>
+
+<p>But first, a little more detail:</p>
+
+<p>Conformal mappings are mappings that preserve angles locally. If I map an image in a conformal way, then if you zoom in enough on a spot in the output, it will eventually look like a zoomed in version of the original (albeit likely rotated). This code generates warping GIFs by interpolating between (i.e. blending) conformal mappings of the complex plane.</p>
+
+<p>In all of the following, I assume that I tile the complex plane with the given image. Then I iterate over all the pixels in the output to assign a value to each one. The values come from mapping the pixel positions in the output by the inverse function of the conformal map we’re trying to achieve and then modding by the dimensions of the image (hence, the tiling assumption).</p>
+
+<p>For each GIF, I randomly generate an order for my pre-coded set of mappings, which should be conformal in the first quadrant. Then I interpolate from one to the next to create the cool space zoom effects; this often, but not always, preserves the assumption that things will be conformal, so it’s fun to look out for points in the GIFs where the map’s no longer conformal and the outputs look weird.</p>
+
+<ul class="gallery">
+
+
+    
+
+
+    
+
+
+    
+    <li>
+      <a href="/assets/conformal/broccoli_output.png">
+        <img src="/assets/conformal/broccoli_output.png" />
+      </a>
+    </li>
+
+    
+
+
+    
+    <li>
+      <a href="/assets/conformal/conformal1.png">
+        <img src="/assets/conformal/conformal1.png" />
+      </a>
+    </li>
+
+    
+
+
+    
+    <li>
+      <a href="/assets/conformal/galaxy_output.gif">
+        <img src="/assets/conformal/galaxy_output.gif" />
+      </a>
+    </li>
+
+    
+
+
+    
+    <li>
+      <a href="/assets/conformal/head_output.gif">
+        <img src="/assets/conformal/head_output.gif" />
+      </a>
+    </li>
+
+    
+
+
+    
+    <li>
+      <a href="/assets/conformal/khanformal.png">
+        <img src="/assets/conformal/khanformal.png" />
+      </a>
+    </li>
+
+    
+
+
+    
+    <li>
+      <a href="/assets/conformal/nancy_output.gif">
+        <img src="/assets/conformal/nancy_output.gif" />
+      </a>
+    </li>
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+</ul>
+
+
+  </div>
+
+  <div class="date">
+    Written on February 16, 2017
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/ojwalch"><i class="svg-icon github"></i></a>
+<a href="https://instagram.com/oliviawalch"><i class="svg-icon instagram"></i></a>
+
+
+
+<a href="https://www.twitter.com/oliviawalch"><i class="svg-icon twitter"></i></a>
+
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
