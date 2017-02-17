@@ -1,6 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T09:30:42-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Simple Triangulation</title><link href="http://localhost:4000/Triangulate/" rel="alternate" type="text/html" title="Simple Triangulation" /><published>2017-02-17T00:00:00-05:00</published><updated>2017-02-17T00:00:00-05:00</updated><id>http://localhost:4000/Triangulate</id><content type="html" xml:base="http://localhost:4000/Triangulate/">&lt;p&gt;I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available &lt;a href=&quot;https://github.com/ojwalch/triangulate-svg&quot;&gt;here&lt;/a&gt;, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T15:23:59-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Simple Triangulation</title><link href="http://localhost:4000/Triangulate/" rel="alternate" type="text/html" title="Simple Triangulation" /><published>2017-02-17T00:00:00-05:00</published><updated>2017-02-17T00:00:00-05:00</updated><id>http://localhost:4000/Triangulate</id><content type="html" xml:base="http://localhost:4000/Triangulate/">&lt;p&gt;I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available &lt;a href=&quot;https://github.com/ojwalch/triangulate-svg&quot;&gt;here&lt;/a&gt;, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
 
 
     
@@ -183,7 +213,264 @@
 
     
 
-&lt;/ul&gt;</content><summary type="html">I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available here, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!</summary></entry><entry><title type="html">Cool warps</title><link href="http://localhost:4000/Cool-Warps/" rel="alternate" type="text/html" title="Cool warps" /><published>2017-02-16T00:00:00-05:00</published><updated>2017-02-16T00:00:00-05:00</updated><id>http://localhost:4000/Cool-Warps</id><content type="html" xml:base="http://localhost:4000/Cool-Warps/">&lt;p&gt;When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on &lt;a href=&quot;https://github.com/ojwalch/cool-warps&quot;&gt;my GitHub page&lt;/a&gt;, and some sample outputs are below.&lt;/p&gt;
+&lt;/ul&gt;</content><summary type="html">I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available here, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!</summary></entry><entry><title type="html">3D Printing Gallery</title><link href="http://localhost:4000/3DPrinting/" rel="alternate" type="text/html" title="3D Printing Gallery" /><published>2017-02-17T00:00:00-05:00</published><updated>2017-02-17T00:00:00-05:00</updated><id>http://localhost:4000/3DPrinting</id><content type="html" xml:base="http://localhost:4000/3DPrinting/">&lt;p&gt;I’ve started the process of pushing my old &lt;a href=&quot;https://github.com/ojwalch/misc-3D-printing&quot;&gt;3D printing code to GitHub&lt;/a&gt;; in the meantime, I’ll be keeping a gallery of 3D printed creations of mine on this page. Warning: they will all be heavily Instagram filtered.&lt;/p&gt;
+
+&lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/burningship.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/burningship.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/gyroid.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/gyroid.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/gyroids.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/gyroids.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/gyroidslice.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/gyroidslice.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/iprgc.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/iprgc.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/mcubed.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/mcubed.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/sandcastles.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/sandcastles.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/stacked.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/stacked.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/supbat.gif&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/supbat.gif&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/3d-printing/toppled.png&quot;&gt;
+        &lt;img src=&quot;/assets/3d-printing/toppled.png&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+&lt;/ul&gt;</content><summary type="html">I’ve started the process of pushing my old 3D printing code to GitHub; in the meantime, I’ll be keeping a gallery of 3D printed creations of mine on this page. Warning: they will all be heavily Instagram filtered.</summary></entry><entry><title type="html">Cool warps</title><link href="http://localhost:4000/Cool-Warps/" rel="alternate" type="text/html" title="Cool warps" /><published>2017-02-16T00:00:00-05:00</published><updated>2017-02-16T00:00:00-05:00</updated><id>http://localhost:4000/Cool-Warps</id><content type="html" xml:base="http://localhost:4000/Cool-Warps/">&lt;p&gt;When I was first learning complex analysis, I thought conformal mappings were too cool not to mess around with. In doing so, I ended up writing code to make some sweet conformal mapping art, as well as some sick warping GIFs. The Matlab code to make the GIFs is on &lt;a href=&quot;https://github.com/ojwalch/cool-warps&quot;&gt;my GitHub page&lt;/a&gt;, and some sample outputs are below.&lt;/p&gt;
 
 &lt;p&gt;But first, a little more detail:&lt;/p&gt;
 
@@ -194,6 +481,36 @@
 &lt;p&gt;For each GIF, I randomly generate an order for my pre-coded set of mappings, which should be conformal in the first quadrant. Then I interpolate from one to the next to create the cool space zoom effects; this often, but not always, preserves the assumption that things will be conformal, so it’s fun to look out for points in the GIFs where the map’s no longer conformal and the outputs look weird.&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
 
 
     
@@ -447,6 +764,36 @@
 
 
     
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
     &lt;li&gt;
       &lt;a href=&quot;/assets/squigglish/demo1.GIF&quot;&gt;
         &lt;img src=&quot;/assets/squigglish/demo1.GIF&quot; /&gt;
@@ -572,6 +919,36 @@
 &lt;p&gt;A few more sample outputs are below; image themes include: Audrey Hepburn, Eartha Kitt, Agatha Christie, Virginia Woolf, The Canterbury Tales, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Ernie_Bushmiller&quot;&gt;my beloved Nancy&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
 
 
     
