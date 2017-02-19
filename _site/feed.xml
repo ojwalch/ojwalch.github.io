@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-17T15:23:59-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Simple Triangulation</title><link href="http://localhost:4000/Triangulate/" rel="alternate" type="text/html" title="Simple Triangulation" /><published>2017-02-17T00:00:00-05:00</published><updated>2017-02-17T00:00:00-05:00</updated><id>http://localhost:4000/Triangulate</id><content type="html" xml:base="http://localhost:4000/Triangulate/">&lt;p&gt;I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available &lt;a href=&quot;https://github.com/ojwalch/triangulate-svg&quot;&gt;here&lt;/a&gt;, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-19T18:14:23-05:00</updated><id>http://localhost:4000//</id><title type="html">Blog</title><subtitle>Projects by Olivia Walch</subtitle><entry><title type="html">Simple Triangulation</title><link href="http://localhost:4000/Triangulate/" rel="alternate" type="text/html" title="Simple Triangulation" /><published>2017-02-17T00:00:00-05:00</published><updated>2017-02-17T00:00:00-05:00</updated><id>http://localhost:4000/Triangulate</id><content type="html" xml:base="http://localhost:4000/Triangulate/">&lt;p&gt;I wrote a quick and low-key Matlab script a while ago to triangulate images through the magic of Delaunay Triangulation and corner detection. The code is available &lt;a href=&quot;https://github.com/ojwalch/triangulate-svg&quot;&gt;here&lt;/a&gt;, and running it both plots the result in Matlab and saves it to an SVG file. Check out a few demos below!&lt;/p&gt;
 
 &lt;ul class=&quot;gallery&quot;&gt;
 
@@ -91,9 +91,15 @@
 
 
     
+
+
+    
+
+
+    
     &lt;li&gt;
       &lt;a href=&quot;/assets/triangulate/astro_output.png&quot;&gt;
-        &lt;img src=&quot;/assets/triangulate/astro_output.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/triangulate/astro_output.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -103,7 +109,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/triangulate/emmy_output.png&quot;&gt;
-        &lt;img src=&quot;/assets/triangulate/emmy_output.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/triangulate/emmy_output.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -113,7 +119,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/triangulate/mlktri.png&quot;&gt;
-        &lt;img src=&quot;/assets/triangulate/mlktri.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/triangulate/mlktri.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -123,7 +129,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/triangulate/rooster.png&quot;&gt;
-        &lt;img src=&quot;/assets/triangulate/rooster.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/triangulate/rooster.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -221,7 +227,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/burningship.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/burningship.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/burningship.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -231,7 +237,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/gyroid.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/gyroid.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/gyroid.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -241,7 +247,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/gyroids.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/gyroids.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/gyroids.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -251,7 +257,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/gyroidslice.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/gyroidslice.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/gyroidslice.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -261,7 +267,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/iprgc.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/iprgc.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/iprgc.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -271,7 +277,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/mcubed.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/mcubed.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/mcubed.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -281,7 +287,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/sandcastles.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/sandcastles.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/sandcastles.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -291,7 +297,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/stacked.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/stacked.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/stacked.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -301,7 +307,7 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/supbat.gif&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/supbat.gif&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/supbat.gif);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -311,9 +317,15 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/3d-printing/toppled.png&quot;&gt;
-        &lt;img src=&quot;/assets/3d-printing/toppled.png&quot; /&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/3d-printing/toppled.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
+
+    
+
+
+    
+
 
     
 
@@ -522,7 +534,8 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/conformal/broccoli_output.png&quot;&gt;
-        &lt;img src=&quot;/assets/conformal/broccoli_output.png&quot; /&gt;
+	&lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/conformal/broccoli_output.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+      	&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -532,7 +545,8 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/conformal/conformal1.png&quot;&gt;
-        &lt;img src=&quot;/assets/conformal/conformal1.png&quot; /&gt;
+	&lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/conformal/conformal1.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+      	&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -542,7 +556,8 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/conformal/galaxy_output.gif&quot;&gt;
-        &lt;img src=&quot;/assets/conformal/galaxy_output.gif&quot; /&gt;
+	&lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/conformal/galaxy_output.gif);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+      	&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -552,7 +567,8 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/conformal/head_output.gif&quot;&gt;
-        &lt;img src=&quot;/assets/conformal/head_output.gif&quot; /&gt;
+	&lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/conformal/head_output.gif);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+      	&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -562,7 +578,8 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/conformal/khanformal.png&quot;&gt;
-        &lt;img src=&quot;/assets/conformal/khanformal.png&quot; /&gt;
+	&lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/conformal/khanformal.png);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+      	&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
 
@@ -572,9 +589,16 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/conformal/nancy_output.gif&quot;&gt;
-        &lt;img src=&quot;/assets/conformal/nancy_output.gif&quot; /&gt;
+	&lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/conformal/nancy_output.gif);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+      	&lt;/div&gt;
       &lt;/a&gt;
     &lt;/li&gt;
+
+    
+
+
+    
+
 
     
 
@@ -795,9 +819,32 @@
 
     
     &lt;li&gt;
+      &lt;a href=&quot;/assets/squigglish/IMG_3902.GIF&quot;&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/squigglish/IMG_3902.GIF);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+	&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
+      &lt;a href=&quot;/assets/squigglish/IMG_3912.GIF&quot;&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/squigglish/IMG_3912.GIF);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+	&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/li&gt;
+
+    
+
+
+    
+    &lt;li&gt;
       &lt;a href=&quot;/assets/squigglish/demo1.GIF&quot;&gt;
-        &lt;img src=&quot;/assets/squigglish/demo1.GIF&quot; /&gt;
-      &lt;/a&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/squigglish/demo1.GIF);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+	&lt;/div&gt;
+        &lt;/a&gt;
     &lt;/li&gt;
 
     
@@ -806,8 +853,9 @@
     
     &lt;li&gt;
       &lt;a href=&quot;/assets/squigglish/demo2.GIF&quot;&gt;
-        &lt;img src=&quot;/assets/squigglish/demo2.GIF&quot; /&gt;
-      &lt;/a&gt;
+        &lt;div class=&quot;imgHolder&quot; style=&quot;background-image: url(/assets/squigglish/demo2.GIF);    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;&quot;&gt;
+	&lt;/div&gt;
+        &lt;/a&gt;
     &lt;/li&gt;
 
     
@@ -1061,6 +1109,12 @@
         &lt;img src=&quot;/assets/picture-clouds/woolf_example.png&quot; /&gt;
       &lt;/a&gt;
     &lt;/li&gt;
+
+    
+
+
+    
+
 
     
 

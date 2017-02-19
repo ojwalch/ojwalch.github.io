@@ -4,8 +4,9 @@
     {% if image.path contains 'conformal' %}
     <li>
       <a href="{{ site.baseurl }}{{ image.path }}">
-	<div class="imgHolder" style="background-image: url({{ site.baseurl }}{{ image.path }});    background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">
-      	</div>
+	<div class="backgroundImage" style="background-image: url({{ site.baseurl }}{{ image.path }})"></div>
+
+<!--        <img src="{{ site.baseurl }}{{ image.path }}" />-->
       </a>
     </li>
 
